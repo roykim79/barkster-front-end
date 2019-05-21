@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
-import './App.css';
 
 import Landing from './components/Landing'
+import DogPark from './components/DogPark'
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       </header>
       <BrowserRouter>
         <Route exact path="/" component={Landing} />
+        <Route exact path="/:id" component={DogPark} />
       </BrowserRouter>
     </div>
   );
