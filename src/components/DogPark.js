@@ -26,8 +26,8 @@ class DogPark extends Component {
 
     // post to server adding checkInCount to count
     checkInDogs(duration.value, dogCount.value, this.props.match.params.id)
-    .then(response => {
-      console.log(response)
+    .then(({currentDogCount}) => {
+      this.setState(() => ({currentDogCount}))
     })
   }
 
