@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import { createDogPark } from '../api/dogParkApi'
 
 class NewDogPark extends Component {
-  handleSubmit = (event) => {
+  handleSubmit = event => {
     event.preventDefault()
 
-    createDogPark(event.target).then((response) => {
-      this.props.history.push(`/parks/${response.id}`)
+    createDogPark(event.target)
+    .then(response => {
+      this.props.history.push(`/parks/${response._id}`)
     })
-
   }
 
   render() {
