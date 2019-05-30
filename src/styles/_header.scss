@@ -1,3 +1,17 @@
 .header {
-  font-size: 3.2em;
+  align-items: baseline;
+  background-color: #FE8603;
+  color: #333;
+  justify-content: space-between;
+  padding: 8px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  flex-basis: 100px;
+}
+
+nav a {
+  flex-basis: 50px;;
 }

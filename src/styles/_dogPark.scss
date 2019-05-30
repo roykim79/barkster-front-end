@@ -1,0 +1,18 @@
+.dog-count {
+  background-color: #333;
+  color: #FE8603;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 1.25em;
+  padding: 4px;
+}
+.park-details {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.park-map {
+  border: 1px solid #000;
+  height: 200px;
+  width: 300px;
+}

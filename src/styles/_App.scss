@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  border-bottom: 2px solid #888;
+  font-size: 1.5em;
+  margin-bottom: 4px;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+.input-label-group {
+  align-items: baseline;
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.section {
+  background-color: #EED4F1;
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 8px;
+}
+
+.section-heading {
+  text-align: center;
+}

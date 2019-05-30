@@ -27,7 +27,6 @@ export const getParkDetails = (id) => {
 }
 
 export const checkInDogs = (duration, count, id) => {
-  console.log(duration, count, id)
   return fetch(`/api/parks/${id}/checkIn`, {
     method: 'POST',
     headers: {
